@@ -1,0 +1,139 @@
+portraits = {
+
+	bovineF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF1.dds"	}
+	bovineF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF2.dds"	}
+	bovineF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF3.dds"	}
+	bovineF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF4.dds"	}
+	bovineF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF5.dds"	}
+	bovineF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF6.dds"	}
+	bovineF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF7.dds"	}
+	bovineF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF8.dds"	}
+	bovineF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF9.dds"	}
+	bovineF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF10.dds"	}
+	bovineF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF11.dds"	}
+	bovineF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF12.dds"	}
+	bovineF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF13.dds"	}
+	bovineF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF14.dds"	}
+	bovineF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF15.dds"	}
+	bovineF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF16.dds"	}
+	bovineF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF17.dds"	}
+	bovineF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF18.dds"	}
+	bovineF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF19.dds"	}
+	bovineF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF20.dds"	}
+	bovineF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF21.dds"	}
+	bovineF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF22.dds"	}
+	bovineF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF23.dds"	}
+	bovineF24 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF24.dds"	}
+	bovineF25 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF25.dds"	}
+	bovineF26 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF26.dds"	}
+	bovineF27 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF27.dds"	}
+	bovineF28 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF28.dds"	}
+	bovineF29 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF29.dds"	}
+	bovineF30 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineF30.dds"	}
+	
+	bovineH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH1.dds"	}
+	bovineH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH2.dds"	}
+	bovineH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH3.dds"	}
+	bovineH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH4.dds"	}
+	bovineH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH5.dds"	}
+	bovineH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH6.dds"	}
+	bovineH07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH7.dds"	}
+	bovineH08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH8.dds"	}
+	bovineH09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH9.dds"	}
+	bovineH10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH10.dds"	}
+	bovineH11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH11.dds"	}
+	bovineH12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH12.dds"	}
+	bovineH13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH13.dds"	}
+
+}
+
+portrait_groups = {
+    bovine = {
+		default = bovineH03
+		game_setup = { 
+           	add = {
+                portraits = {
+					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
+					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
+					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
+					bovineF16 bovineF17 bovineF18 bovineF19 bovineF20
+					bovineF21 bovineF22 bovineF23 bovineF24 bovineF25
+					bovineF26 bovineF27 bovineF28 bovineF29 bovineF30
+					
+					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
+					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
+					bovineH11 bovineH12 bovineH13
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
+					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
+					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
+					bovineF16 bovineF17 bovineF18 bovineF19 bovineF20
+					bovineF21 bovineF22 bovineF23 bovineF24 bovineF25
+					bovineF26 bovineF27 bovineF28 bovineF29 bovineF30
+					
+					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
+					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
+					bovineH11 bovineH12 bovineH13
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
+					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
+					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
+					bovineF16 bovineF17 bovineF18 bovineF19 bovineF20
+					bovineF21 bovineF22 bovineF23 bovineF24 bovineF25
+					bovineF26 bovineF27 bovineF28 bovineF29 bovineF30
+					
+					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
+					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
+					bovineH11 bovineH12 bovineH13
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
+					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
+					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
+					bovineF16 bovineF17 bovineF18 bovineF19 bovineF20
+					bovineF21 bovineF22 bovineF23 bovineF24 bovineF25
+					bovineF26 bovineF27 bovineF28 bovineF29 bovineF30
+					
+					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
+					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
+					bovineH11 bovineH12 bovineH13
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
+					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
+					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
+					bovineF16 bovineF17 bovineF18 bovineF19 bovineF20
+					bovineF21 bovineF22 bovineF23 bovineF24 bovineF25
+					bovineF26 bovineF27 bovineF28 bovineF29 bovineF30
+					
+					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
+					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
+					bovineH11 bovineH12 bovineH13
+                }
+            }
+        }
+	}
+}

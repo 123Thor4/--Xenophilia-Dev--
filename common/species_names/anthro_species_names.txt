@@ -1,0 +1,9 @@
+ANT = {
+	spacecows = {
+		name = Bovine
+		plural = Bovines
+		home_planet = Terrvache
+		home_system = "Sotaureau"
+		name_list = "MAM2"
+	}
+}

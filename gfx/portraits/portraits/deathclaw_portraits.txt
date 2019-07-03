@@ -1,0 +1,157 @@
+portraits = {
+
+	deathclawF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF1.dds"	}
+	deathclawF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF2.dds"	}
+	deathclawF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF3.dds"	}
+	deathclawF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF4.dds"	}
+	deathclawF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF5.dds"	}
+	deathclawF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF6.dds"	}
+	deathclawF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF7.dds"	}
+	deathclawF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF8.dds"	}
+	deathclawF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF9.dds"	}
+	deathclawF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF10.dds"	}
+	deathclawF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF11.dds"	}
+	deathclawF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF12.dds"	}
+	deathclawF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF13.dds"	}
+	deathclawF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF14.dds"	}
+	deathclawF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF15.dds"	}
+	deathclawF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF16.dds"	}
+	deathclawF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF17.dds"	}
+	deathclawF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF18.dds"	}
+	deathclawF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF19.dds"	}
+	deathclawF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawF20.dds"	}
+	
+	deathclawH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH1.dds"	}
+	deathclawH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH2.dds"	}
+	deathclawH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH3.dds"	}
+	deathclawH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH4.dds"	}
+	deathclawH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH5.dds"	}
+	deathclawH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH6.dds"	}
+	deathclawH07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH7.dds"	}
+	
+	deathclawM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM1.dds"	}
+	deathclawM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM2.dds"	}
+	deathclawM03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM3.dds"	}
+	deathclawM04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM4.dds"	}
+	deathclawM05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM5.dds"	}
+	deathclawM06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM6.dds"	}
+	deathclawM07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM7.dds"	}
+
+}
+
+portrait_groups = {
+    deathclaw = {
+		default = deathclawF01
+		game_setup = { 
+           	add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+                portraits = {
+					deathclawF01 deathclawF02 deathclawF03 deathclawF04 deathclawF05
+					deathclawF06 deathclawF07 deathclawF08 deathclawF09 deathclawF10
+					deathclawF11 deathclawF12 deathclawF13 deathclawF14 deathclawF15
+					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
+					
+					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
+					deathclawH06 deathclawH07
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+                portraits = {
+					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
+					deathclawM06 deathclawM07
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					deathclawF01 deathclawF02 deathclawF03 deathclawF04 deathclawF05
+					deathclawF06 deathclawF07 deathclawF08 deathclawF09 deathclawF10
+					deathclawF11 deathclawF12 deathclawF13 deathclawF14 deathclawF15
+					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
+					
+					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
+					deathclawH06 deathclawH07
+					
+					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
+					deathclawM06 deathclawM07
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					deathclawF01 deathclawF02 deathclawF03 deathclawF04 deathclawF05
+					deathclawF06 deathclawF07 deathclawF08 deathclawF09 deathclawF10
+					deathclawF11 deathclawF12 deathclawF13 deathclawF14 deathclawF15
+					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
+					
+					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
+					deathclawH06 deathclawH07
+					
+					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
+					deathclawM06 deathclawM07
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+					deathclawF01 deathclawF02 deathclawF03 deathclawF04 deathclawF05
+					deathclawF06 deathclawF07 deathclawF08 deathclawF09 deathclawF10
+					deathclawF11 deathclawF12 deathclawF13 deathclawF14 deathclawF15
+					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
+					
+					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
+					deathclawH06 deathclawH07
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
+					deathclawM06 deathclawM07
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					deathclawF01 deathclawF02 deathclawF03 deathclawF04 deathclawF05
+					deathclawF06 deathclawF07 deathclawF08 deathclawF09 deathclawF10
+					deathclawF11 deathclawF12 deathclawF13 deathclawF14 deathclawF15
+					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
+					
+					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
+					deathclawH06 deathclawH07
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
+					deathclawM06 deathclawM07
+				}
+			}
+        }
+	}
+}

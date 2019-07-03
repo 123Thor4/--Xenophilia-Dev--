@@ -1,0 +1,90 @@
+portraits = {
+
+	draeneiF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF1.dds"	}
+	draeneiF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF2.dds"	}
+	draeneiF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF3.dds"	}
+	draeneiF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF4.dds"	}
+	draeneiF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF5.dds"	}
+	draeneiF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF6.dds"	}
+	draeneiF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF7.dds"	}
+	draeneiF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF8.dds"	}
+	draeneiF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF9.dds"	}
+	draeneiF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF10.dds"	}
+	draeneiF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF11.dds"	}
+	draeneiF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF12.dds"	}
+	draeneiF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF13.dds"	}
+	draeneiF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF14.dds"	}
+	draeneiF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiF15.dds"	}
+
+	draeneiH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiH1.dds"	}
+	draeneiH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiH2.dds"	}
+	draeneiH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/draenei/draeneiH3.dds"	}
+
+
+}
+
+portrait_groups = {
+    draenei = {
+		default = draeneiF09
+		game_setup = { 
+           	add = {
+                portraits = {
+					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
+					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
+					
+					draeneiH01 draeneiH02 draeneiH03 
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
+					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
+					
+					draeneiH01 draeneiH02 draeneiH03 
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
+					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
+					
+					draeneiH01 draeneiH02 draeneiH03 
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
+					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
+					
+					draeneiH01 draeneiH02 draeneiH03 
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
+					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
+					
+					draeneiH01 draeneiH02 draeneiH03 
+                }
+            }
+        }
+	}
+}
