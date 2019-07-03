@@ -1,5 +1,5 @@
 name="--Xenophilia Dev--"
-path="mod/--Xenophilia Dev--"
+path="mod/--Xenophilia-Dev--"
 tags={
 	"Species"
 }
