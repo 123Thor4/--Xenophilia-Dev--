@@ -8,6 +8,7 @@ ANT = {
 		"snake"
 		"deathclaw"
 		"kobold"
+		"avian"
 	}
 	
 	graphical_culture = humanoid_01
@@ -23,6 +24,7 @@ XEN = {
 		"quarian"
 		"protoss"
 		"draenei"
+		"novakid"
 	}
 	
 	graphical_culture = humanoid_01
