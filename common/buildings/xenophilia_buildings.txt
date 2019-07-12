@@ -1,0 +1,522 @@
+#Spiritualist
+building_temple = {
+	base_buildtime = 240
+	base_cap_amount = 1
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { is_spiritualist = yes }
+		NOT = { has_modifier = slave_colony }
+		OR = {
+			owner = { is_ai = no }
+			free_building_slots > 0
+		}
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_spiritualist = no }
+			has_modifier = slave_colony
+		}
+	}
+	
+	convert_to = {
+		building_hive_node
+		building_uplink_node
+		building_autochthon_monument
+		building_corporate_monument
+	}
+	
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                NOT = { has_valid_civic = civic_sex_cult }
+            }
+        }
+			modifier = {
+			job_priest_add = 2
+			pop_ethic_spiritualist_attraction_mult = 0.05
+		}
+	}
+	triggered_planet_modifier = {
+			potential = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_sex_cult
+				}					
+			}
+			modifier = {
+			job_temple_whore_add = 2
+			pop_ethic_spiritualist_attraction_mult = 0.05
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 1
+		}		
+	}
+	
+	upgrades = {
+		building_holotemple
+	}
+	
+	prerequisites = {
+		"tech_cultural_heritage"
+	}
+	
+	show_tech_unlock_if = {
+		is_spiritualist = yes
+	}
+	
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+
+	ai_weight = {
+		weight = 35
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 8
+				}
+			}
+		}
+	}
+}
+
+building_holotemple = {
+	base_buildtime = 360
+	can_build = no
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { is_spiritualist = yes }
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_spiritualist = no }
+			has_modifier = slave_colony
+		}
+	}
+	
+	convert_to = {
+		building_network_junction
+		building_hive_cluster
+		building_heritage_site
+		building_corporate_site
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				NOT = { has_valid_civic = civic_sex_cult }
+			}					
+		}
+			modifier = {
+			job_priest_add = 4
+			pop_ethic_spiritualist_attraction_mult = 0.10
+		}
+	}
+	triggered_planet_modifier = {
+			potential = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_sex_cult
+				}					
+			}
+			modifier = {
+			job_temple_whore_add = 4
+			pop_ethic_spiritualist_attraction_mult = 0.10
+		}
+	}	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 2
+		}		
+	}
+	
+	upgrades = {
+		building_sacred_nexus
+	}
+	
+	prerequisites = {
+		"tech_holographic_rituals"
+	}
+	
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 8
+				}
+			}
+		}
+	}
+}
+
+
+building_sacred_nexus = {
+	base_buildtime = 480
+	can_build = no
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { is_spiritualist = yes }
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_spiritualist = no }
+			has_modifier = slave_colony
+		}
+	}
+	
+	convert_to = {
+		building_hive_confluence
+		building_autocurating_vault
+		building_hypercomms_forum
+		building_corporate_forum
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				NOT = { has_valid_civic = civic_sex_cult }
+			}					
+		}
+		modifier = {
+			job_priest_add = 7
+			pop_ethic_spiritualist_attraction_mult = 0.15
+		}
+	}
+	triggered_planet_modifier = {
+			potential = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_sex_cult
+				}					
+			}
+			modifier = {
+			job_temple_whore_add = 7
+			pop_ethic_spiritualist_attraction_mult = 0.15
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			rare_crystals = 50
+		}	
+		upkeep = {
+			energy = 3
+			rare_crystals = 1
+		}		
+	}
+	
+	upgrades = {
+		building_citadel_of_faith
+	}
+	
+	prerequisites = {
+		"tech_consecration_fields"
+	}
+	
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			buildings_has_crystals = yes
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = { has_country_flag = buildings_new_crystal_building }
+		}
+	}
+	on_built = {
+		planet = { 
+			owner = { set_timed_country_flag = { flag = buildings_new_crystal_building days = 480 } }
+		}
+	}
+}
+
+building_citadel_of_faith = {
+	base_buildtime = 600
+	can_build = no
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { is_spiritualist = yes }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		has_fully_upgraded_capital = yes
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_spiritualist = no }
+			has_modifier = slave_colony
+		}
+	}
+	
+	convert_to = {
+		building_sacred_nexus
+		building_hive_confluence
+		building_alpha_hub
+		building_corporate_forum
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				NOT = { has_valid_civic = civic_sex_cult }
+			}					
+		}
+		modifier = {
+			job_priest_add = 10
+			pop_ethic_spiritualist_attraction_mult = 0.20
+		}
+	}
+	triggered_planet_modifier = {
+			potential = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_sex_cult
+				}					
+			}
+			modifier = {
+			job_temple_whore_add = 10
+			pop_ethic_spiritualist_attraction_mult = 0.20
+		}
+	}	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+			rare_crystals = 100
+		}	
+		upkeep = {
+			energy = 4
+			rare_crystals = 2
+		}		
+	}
+	
+	prerequisites = {
+		"tech_transcendent_faith"
+	}
+	
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			buildings_has_crystals = yes
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = { has_country_flag = buildings_new_crystal_building }
+		}
+	}
+	on_built = {
+		planet = { 
+			owner = { set_timed_country_flag = { flag = buildings_new_crystal_building days = 480 } }
+		}
+	}
+}
+
+#Authoritarian
+breeding_clinic = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	category = amenity
+	
+	potential = {
+		owner = { 
+			is_regular_empire = yes 
+			has_valid_civic = civic_pop_quotas
+		}
+		NOT = { has_modifier = slave_colony }
+	}	
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_regular_empire = no }
+			has_modifier = slave_colony
+			AND = {
+				buildings_stop_pop = yes
+				owner = { is_ai = yes }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		job_breeder_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		
+	}
+	
+	upgrades = {
+		"breeding_centre"
+	}
+	
+	triggered_desc = {
+		text = job_breeding_clinic_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 75000
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				buildings_stop_pop = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			count_pops = { limit = { is_sapient = yes } count > 75 }
+		}
+	}
+}
+
+breeding_centre = {
+	base_buildtime = 480
+	can_build = no
+	
+	category = amenity
+	
+	potential = {
+		has_building = breeding_clinic
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_regular_empire = no }
+			has_modifier = slave_colony
+			buildings_has_exotic_gases = no
+			AND = {
+				buildings_stop_pop = yes
+				owner = { is_ai = yes }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		job_breeder_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+			exotic_gases = 50
+		}
+		upkeep = {
+			energy = 2
+			exotic_gases = 1
+		}
+	}
+	
+	prerequisites = {
+	
+	}
+	
+	show_tech_unlock_if = {
+		is_regular_empire = yes
+	}
+
+	triggered_desc = {
+		text = job_breeding_centre_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			buildings_has_exotic_gases = no
+		}
+	}
+}

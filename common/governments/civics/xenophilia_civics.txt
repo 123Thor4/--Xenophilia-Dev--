@@ -1,0 +1,60 @@
+######################
+###     Civics     ###
+######################
+
+######################
+###  Spiritualist  ###
+######################
+
+civic_sex_cult = {
+	potential = {
+		ethics = {
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 	
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+	}
+	random_weight = { base = 5 }
+	modifier = {
+
+	}
+}
+
+#####################
+### Authoritarian ###
+#####################
+
+civic_pop_quotas = {
+	potential = {
+		ethics = {
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 	
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+		}
+	}
+	random_weight = { base = 5 }
+	modifier = {	
+		pop_growth_speed = 0.20
+
+	}
+}

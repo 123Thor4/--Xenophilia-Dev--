@@ -1,0 +1,17 @@
+﻿l_english:
+
+###########################
+###     Governments     ###
+###########################
+
+##########
+# Civics #
+##########
+
+civic_sex_cult:0 "Sex Cult"
+civic_lv_nymphic_hosts_desc:0 "This society worships a diety of sex and fertility. Members of the clergy act as both religious leaders and prostitutes, and are highly amorous; those seeking sexual release can always find love in their temples."
+civic_tooltip_lv_nymphic_hosts_effects:0 "All Priest jobs are replaced with Temple Whore jobs, providing additional Pop growth speed."
+
+#################
+# Personalities #
+#################

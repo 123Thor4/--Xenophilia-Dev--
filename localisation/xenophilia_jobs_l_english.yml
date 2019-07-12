@@ -1,0 +1,19 @@
+﻿l_english:
+
+###################################
+###     Economic Categories     ###
+###################################
+
+########################
+###     Pop Jobs     ###
+########################
+
+################
+# Temple Whore #
+################
+
+job_temple_whore:0 "Temple Whore"
+job_temple_whore_plural:0 "Temple Whores"
+job_temple_whore_desc:0 "The spiritual guidance of the masses is performed by the most pious and devout. Temple Whores also provide physical relief to the needy, offering their bodies to those who cannot find love elsewhere."
+job_temple_whore_desc:0 "£job_temple_whore£ $job_temple_whore_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§!, £society£ §Y$society_research$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED"
+
