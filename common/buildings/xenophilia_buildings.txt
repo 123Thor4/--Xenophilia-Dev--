@@ -584,14 +584,12 @@ building_holo_theatres = {
 
 	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
-					NOT = { has_valid_civic = civic_sex_duels }
-
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 2
-		}
 	}
 
 	triggered_planet_modifier = {
@@ -639,7 +637,7 @@ building_holo_theatres = {
 		trigger = {
 			exists = owner
 			owner = { 
-has_valid_civic = civic_warrior_culture
+				has_valid_civic = civic_warrior_culture
 				NOT = { has_valid_civic = civic_sex_duels }
 			}
 		}
@@ -726,16 +724,14 @@ building_hyper_entertainment_forum = {
 		}
 	}
 
-		triggered_planet_modifier = {
+	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
-					NOT = { has_valid_civic = civic_sex_duels }
-
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 2
-		}
 	}
 
 	triggered_planet_modifier = {
@@ -858,11 +854,12 @@ building_colony_shelter = {
 		job_colonist_add = 2
 	}	
 
-		triggered_planet_modifier = {
+	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 1
 	}
@@ -952,11 +949,12 @@ building_capital = {
 		planet_housing_add = 5
 		planet_amenities_add = 5
 	}
-			triggered_planet_modifier = {
+	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 2
 	}
@@ -1199,9 +1197,10 @@ building_major_capital = {
 
 	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 3
 	}
@@ -1445,9 +1444,10 @@ building_system_capital = {
 
 	triggered_planet_modifier = {
 		potential = {
-				exists = owner
-				owner = {
-					has_valid_civic = civic_sex_duels
+			exists = owner
+			owner = {
+				has_valid_civic = civic_sex_duels
+			}
 		}
 		job_sex_duelist_add = 4
 	}

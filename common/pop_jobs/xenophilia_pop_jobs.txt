@@ -251,7 +251,7 @@ sex_duelist = {
 			unity = 3
 		}
 		upkeep = {
-			consumer goods = 
+			consumer_goods = 2
 		}
 	}
 
