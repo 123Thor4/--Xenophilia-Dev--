@@ -31,6 +31,10 @@ civic_sex_cult = {
 }
 
 #####################
+###  Materialist  ###
+#####################
+
+#####################
 ### Authoritarian ###
 #####################
 
@@ -46,7 +50,7 @@ civic_pop_quotas = {
 	possible = {
 		ethics = {
 			OR = {
-				text = civic_tooltip_spiritualist
+				text = civic_tooltip_authoritarian
 				value = ethic_authoritarian
 				value = ethic_fanatic_authoritarian
 			}
@@ -58,3 +62,61 @@ civic_pop_quotas = {
 
 	}
 }
+
+###################
+### Egalatarian ###
+###################
+
+##################
+### Militarist ###
+##################
+
+civic_sex_duels = {
+	potential = {
+		ethics = {
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 	
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+	}
+	random_weight = { base = 5 }
+	modifier = {
+
+	}
+}
+
+################
+### Pacifist ###
+################
+
+#################
+### Xenophile ###
+#################
+
+#################
+### Xenophobe ###
+#################
+
+###################
+###  Corporate  ###
+###################
+
+###################
+###  Hive Mind  ###
+###################
+
+###########################
+### Machine Inteligence ###
+###########################
+
+
