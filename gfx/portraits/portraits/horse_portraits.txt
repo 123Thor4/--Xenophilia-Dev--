@@ -17,7 +17,10 @@ portraits = {
 	horseF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF15.dds"	}
 	horseF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF16.dds"	}
 	horseF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF17.dds"	}
-	
+	horseF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF18.dds"	}
+	horseF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF18.dds"	}
+	horseF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF18.dds"	}
+
 	horseH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH1.dds"	}
 	horseH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH2.dds"	}
 	horseH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH3.dds"	}
@@ -41,7 +44,7 @@ portraits = {
 	horseM14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM14.dds"	}
 	horseM15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM15.dds"	}
 	horseM16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM16.dds"	}
-
+"humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM17.dds"	}
 }
 
 portrait_groups = {
@@ -56,7 +59,7 @@ portrait_groups = {
 					horseF01 horseF02 horseF03 horseF04 horseF05
 					horseF06 horseF07 horseF08 horseF09 horseF10
 					horseF11 horseF12 horseF13 horseF14 horseF15
-					horseF16 horseF17
+					horseF16 horseF17 horseF18 horseF19 horseF20
 					
 					horseH01 horseH02 horseH03 horseH04 horseH05
 					horseH06
@@ -70,7 +73,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17
 				}
 			}
 		}
@@ -81,7 +84,7 @@ portrait_groups = {
 					horseF01 horseF02 horseF03 horseF04 horseF05
 					horseF06 horseF07 horseF08 horseF09 horseF10
 					horseF11 horseF12 horseF13 horseF14 horseF15
-					horseF16 horseF17
+					horseF16 horseF17 horseF18 horseF19 horseF20
 				
 					horseH01 horseH02 horseH03 horseH04 horseH05
 					horseH06
@@ -89,7 +92,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17
 				}
 			}
 		}
@@ -100,7 +103,7 @@ portrait_groups = {
 					horseF01 horseF02 horseF03 horseF04 horseF05
 					horseF06 horseF07 horseF08 horseF09 horseF10
 					horseF11 horseF12 horseF13 horseF14 horseF15
-					horseF16 horseF17
+					horseF16 horseF17 horseF18 horseF19 horseF20
 				
 					horseH01 horseH02 horseH03 horseH04 horseH05
 					horseH06
@@ -108,7 +111,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17
 				}
 			}
 		}
@@ -122,7 +125,7 @@ portrait_groups = {
 					horseF01 horseF02 horseF03 horseF04 horseF05
 					horseF06 horseF07 horseF08 horseF09 horseF10
 					horseF11 horseF12 horseF13 horseF14 horseF15
-					horseF16 horseF17
+					horseF16 horseF17 horseF18 horseF19 horseF20
 					
 					horseH01 horseH02 horseH03 horseH04 horseH05
 					horseH06
@@ -136,7 +139,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17
 				}
 			}
 		}	
@@ -150,7 +153,7 @@ portrait_groups = {
 					horseF01 horseF02 horseF03 horseF04 horseF05
 					horseF06 horseF07 horseF08 horseF09 horseF10
 					horseF11 horseF12 horseF13 horseF14 horseF15
-					horseF16 horseF17
+					horseF16 horseF17 horseF18 horseF19 horseF20
 					
 					horseH01 horseH02 horseH03 horseH04 horseH05
 					horseH06
@@ -164,7 +167,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17
 				}
 			}
         }
