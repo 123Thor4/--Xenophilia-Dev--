@@ -31,8 +31,9 @@ portrait_groups = {
                 portraits = {
 					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
 					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
-					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
-					
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15 
+					draeneiF16 draeneiF17
+
 					draeneiH01 draeneiH02 draeneiH03 
 				}
 			}
@@ -43,8 +44,9 @@ portrait_groups = {
 				portraits = {
 					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
 					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
-					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
-					
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15 
+					draeneiF16 draeneiF17
+
 					draeneiH01 draeneiH02 draeneiH03 
 				}
 			}
@@ -55,8 +57,9 @@ portrait_groups = {
 				portraits = {
 					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
 					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
-					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
-					
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15 
+					draeneiF16 draeneiF17
+
 					draeneiH01 draeneiH02 draeneiH03 
 				}
 			}
@@ -67,8 +70,9 @@ portrait_groups = {
 				portraits = {
 					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
 					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
-					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
-					
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15 
+					draeneiF16 draeneiF17
+
 					draeneiH01 draeneiH02 draeneiH03 
 				}
 			}
@@ -80,8 +84,9 @@ portrait_groups = {
 				portraits = {
 					draeneiF01 draeneiF02 draeneiF03 draeneiF04 draeneiF05
 					draeneiF06 draeneiF07 draeneiF08 draeneiF09 draeneiF10
-					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15
-					
+					draeneiF11 draeneiF12 draeneiF13 draeneiF14 draeneiF15 
+					draeneiF16 draeneiF17
+
 					draeneiH01 draeneiH02 draeneiH03 
                 }
             }
