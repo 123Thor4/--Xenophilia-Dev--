@@ -1,0 +1,120 @@
+ANT = {
+	Ulkol= {
+		name = Ulkol
+		plural = Ulkoli
+		home_planet = Terrvache
+		home_system = "Sotaureau"
+		name_list = "MAM1"
+	}
+	Onih= {
+		name = Onih 
+		plural = Onihs
+		home_planet = Musant
+		home_system = "Vassaves"
+		name_list = "MAM2"
+	}
+	Yikir= {
+		name = Yikir
+		plural = Yikri
+		home_planet = Utzal 
+		home_system = "Zucnan"
+		name_list = "MAM3"
+	}
+	Umogo= {
+		name = Umogo
+		plural = Umogos
+		home_planet = Brugnot
+		home_system = "Ilphin"
+		name_list = "MAM4"
+	}
+	Ulphall= {
+		name = Ulphall
+		plural = Ulphalli
+		home_planet = Domu
+		home_system = "Thruns"
+		name_list = "MAM1"
+	}
+	Deldae= {
+		name = Deldae
+		plural = Deldae
+		home_planet = Ahlen
+		home_system = "Ondul"
+		name_list = "MAM2"
+	}
+	Aukvon= {
+		name = Aukvon
+		plural = Aukvons
+		home_planet = Ica
+		home_system = "Catleon"
+		name_list = "MAM3"
+	}
+	Vohnaet= {
+		name = Vohnaet
+		plural = Vohnaeti
+		home_planet = Hulvae
+		home_system = "Qhusqi"
+		name_list = "MAM4"
+	}
+
+}
+
+XEN = {
+	Ulkol= {
+		name = Ulkol
+		plural = Ulkoli
+		home_planet = Terrvache
+		home_system = "Sotaureau"
+		name_list = "REP1"
+	}
+	Onih= {
+		name = Onih 
+		plural = Onihs
+		home_planet = Musant
+		home_system = "Vassaves"
+		name_list = "REP2"
+	}
+	Yikir= {
+		name = Yikir
+		plural = Yikri
+		home_planet = Utzal 
+		home_system = "Zucnan"
+		name_list = "REP3"
+	}
+	Umogo= {
+		name = Umogo
+		plural = Umogos
+		home_planet = Brugnot
+		home_system = "Ilphin"
+		name_list = "REP4"
+	}
+	Ulphall= {
+		name = Ulphall
+		plural = Ulphalli
+		home_planet = Domu
+		home_system = "Thruns"
+		name_list = "REP1"
+	}
+	Deldae= {
+		name = Deldae
+		plural = Deldae
+		home_planet = Ahlen
+		home_system = "Ondul"
+		name_list = "REP2"
+	}
+	Aukvon= {
+		name = Aukvon
+		plural = Aukvons
+		home_planet = Ica
+		home_system = "Catleon"
+		name_list = "REP3"
+	}
+	Vohnaet= {
+		name = Vohnaet
+		plural = Vohnaeti
+		home_planet = Hulvae
+		home_system = "Qhusqi"
+		name_list = "REP4"
+	}
+
+}
+

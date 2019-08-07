@@ -1,0 +1,172 @@
+portraits = {
+
+	horseF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF1.dds"	}
+	horseF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF2.dds"	}
+	horseF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF3.dds"	}
+	horseF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF4.dds"	}
+	horseF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF5.dds"	}
+	horseF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF6.dds"	}
+	horseF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF7.dds"	}
+	horseF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF8.dds"	}
+	horseF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF9.dds"	}
+	horseF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF10.dds"	}
+	horseF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF11.dds"	}
+	horseF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF12.dds"	}
+	horseF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF13.dds"	}
+	horseF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF14.dds"	}
+	horseF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF15.dds"	}
+	horseF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF16.dds"	}
+	horseF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseF17.dds"	}
+	
+	horseH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH1.dds"	}
+	horseH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH2.dds"	}
+	horseH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH3.dds"	}
+	horseH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH4.dds"	}
+	horseH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH5.dds"	}
+	horseH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseH6.dds"	}
+	
+	horseM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM1.dds"	}
+	horseM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM2.dds"	}
+	horseM03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM3.dds"	}
+	horseM04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM4.dds"	}
+	horseM05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM5.dds"	}
+	horseM06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM6.dds"	}
+	horseM07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM7.dds"	}
+	horseM08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM8.dds"	}
+	horseM09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM9.dds"	}
+	horseM10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM10.dds"	}
+	horseM11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM11.dds"	}
+	horseM12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM12.dds"	}
+	horseM13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM13.dds"	}
+	horseM14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM14.dds"	}
+	horseM15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM15.dds"	}
+	horseM16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/horse/horseM16.dds"	}
+
+}
+
+portrait_groups = {
+    horse = {
+		default = horseH06
+		game_setup = { 
+           	add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+                portraits = {
+					horseF01 horseF02 horseF03 horseF04 horseF05
+					horseF06 horseF07 horseF08 horseF09 horseF10
+					horseF11 horseF12 horseF13 horseF14 horseF15
+					horseF16 horseF17
+					
+					horseH01 horseH02 horseH03 horseH04 horseH05
+					horseH06
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+                portraits = {
+					horseM01 horseM02 horseM03 horseM04 horseM05
+					horseM06 horseM07 horseM08 horseM09 horseM10
+					horseM11 horseM12 horseM13 horseM14 horseM15
+					horseM16
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					horseF01 horseF02 horseF03 horseF04 horseF05
+					horseF06 horseF07 horseF08 horseF09 horseF10
+					horseF11 horseF12 horseF13 horseF14 horseF15
+					horseF16 horseF17
+				
+					horseH01 horseH02 horseH03 horseH04 horseH05
+					horseH06
+				
+					horseM01 horseM02 horseM03 horseM04 horseM05
+					horseM06 horseM07 horseM08 horseM09 horseM10
+					horseM11 horseM12 horseM13 horseM14 horseM15
+					horseM16
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					horseF01 horseF02 horseF03 horseF04 horseF05
+					horseF06 horseF07 horseF08 horseF09 horseF10
+					horseF11 horseF12 horseF13 horseF14 horseF15
+					horseF16 horseF17
+				
+					horseH01 horseH02 horseH03 horseH04 horseH05
+					horseH06
+				
+					horseM01 horseM02 horseM03 horseM04 horseM05
+					horseM06 horseM07 horseM08 horseM09 horseM10
+					horseM11 horseM12 horseM13 horseM14 horseM15
+					horseM16
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+                portraits = {
+					horseF01 horseF02 horseF03 horseF04 horseF05
+					horseF06 horseF07 horseF08 horseF09 horseF10
+					horseF11 horseF12 horseF13 horseF14 horseF15
+					horseF16 horseF17
+					
+					horseH01 horseH02 horseH03 horseH04 horseH05
+					horseH06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					horseM01 horseM02 horseM03 horseM04 horseM05
+					horseM06 horseM07 horseM08 horseM09 horseM10
+					horseM11 horseM12 horseM13 horseM14 horseM15
+					horseM16
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+					horseF01 horseF02 horseF03 horseF04 horseF05
+					horseF06 horseF07 horseF08 horseF09 horseF10
+					horseF11 horseF12 horseF13 horseF14 horseF15
+					horseF16 horseF17
+					
+					horseH01 horseH02 horseH03 horseH04 horseH05
+					horseH06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					horseM01 horseM02 horseM03 horseM04 horseM05
+					horseM06 horseM07 horseM08 horseM09 horseM10
+					horseM11 horseM12 horseM13 horseM14 horseM15
+					horseM16
+				}
+			}
+        }
+	}
+}

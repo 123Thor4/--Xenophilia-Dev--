@@ -1,0 +1,118 @@
+portraits = {
+
+	avianF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF1.dds"	}
+	avianF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF2.dds"	}
+	avianF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF3.dds"	}
+	avianF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF4.dds"	}
+	avianF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF5.dds"	}
+	avianF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF6.dds"	}
+	avianF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF7.dds"	}
+	avianF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF8.dds"	}
+	avianF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF9.dds"	}
+	
+	avianH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianH1.dds"	}
+	
+	avianM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM1.dds"	}
+	avianM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM2.dds"	}
+	avianM03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM3.dds"	}
+	avianM04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM4.dds"	}
+	avianM05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM5.dds"	}
+
+}
+
+portrait_groups = {
+    avian = {
+		default = avianF07
+		game_setup = { 
+           	add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+                portraits = {
+					avianF01 avianF02 avianF03 avianF04 avianF05
+					avianF06 avianF07 avianF08 avianF09
+					
+					avianH01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = male } 
+				}
+                portraits = {
+					avianM01 avianM02 avianM03 avianM04 avianM05
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					avianF01 avianF02 avianF03 avianF04 avianF05
+					avianF06 avianF07 avianF08 avianF09
+					
+					avianH01
+					
+					avianM01 avianM02 avianM03 avianM04 avianM05
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					avianF01 avianF02 avianF03 avianF04 avianF05
+					avianF06 avianF07 avianF08 avianF09
+					
+					avianH01
+					
+					avianM01 avianM02 avianM03 avianM04 avianM05
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+					avianF01 avianF02 avianF03 avianF04 avianF05
+					avianF06 avianF07 avianF08 avianF09
+					
+					avianH01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					avianM01 avianM02 avianM03 avianM04 avianM05
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+					avianF01 avianF02 avianF03 avianF04 avianF05
+					avianF06 avianF07 avianF08 avianF09
+					
+					avianH01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+					avianM01 avianM02 avianM03 avianM04 avianM05
+				}
+			}
+        }
+	}
+}

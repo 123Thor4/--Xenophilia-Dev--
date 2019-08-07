@@ -1,0 +1,60 @@
+portraits = {
+
+	protossF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF1.dds"	}
+	protossF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF2.dds"	}
+	protossF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF3.dds"	}
+	protossF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF4.dds"	}
+	protossF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF5.dds"	}
+	protossF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/protoss/protossF6.dds"	}
+
+}
+
+portrait_groups = {
+    protoss = {
+		default = protossF06
+		game_setup = { 
+           	add = {
+                portraits = {
+					protossF01 protossF02 protossF03 protossF04 protossF05
+					protossF06
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					protossF01 protossF02 protossF03 protossF04 protossF05
+					protossF06
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					protossF01 protossF02 protossF03 protossF04 protossF05
+					protossF06
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+                portraits = {
+					protossF01 protossF02 protossF03 protossF04 protossF05
+					protossF06
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+                portraits = {
+					protossF01 protossF02 protossF03 protossF04 protossF05
+					protossF06
+				}
+			}
+        }
+	}
+}

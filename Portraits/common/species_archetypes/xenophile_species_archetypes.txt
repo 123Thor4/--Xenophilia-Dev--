@@ -1,0 +1,11 @@
+ANT = { 
+	inherit_traits_from = { BIOLOGICAL } 
+        inherit_trait_points_from = BIOLOGICAL
+}
+
+XEN = { 
+	inherit_traits_from = { BIOLOGICAL } 
+        inherit_trait_points_from = BIOLOGICAL
+}
+
+
