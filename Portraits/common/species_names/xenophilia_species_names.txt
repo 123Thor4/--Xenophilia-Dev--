@@ -4,7 +4,7 @@ ANT = {
 		plural = Ulkoli
 		home_planet = Terrvache
 		home_system = "Sotaureau"
-		name_list = "MAM1"
+		name_list = "REP1"
 	}
 
 	Onih= {
@@ -12,7 +12,7 @@ ANT = {
 		plural = Onihs
 		home_planet = Musant
 		home_system = "Vassaves"
-		name_list = "MAM2"
+		name_list = "REP2"
 	}
 
 	Yikir= {
@@ -20,7 +20,7 @@ ANT = {
 		plural = Yikri
 		home_planet = Utzal 
 		home_system = "Zucnan"
-		name_list = "MAM3"
+		name_list = "REP3"
 	}
 
 	Umogo= {
@@ -28,7 +28,7 @@ ANT = {
 		plural = Umogos
 		home_planet = Brugnot
 		home_system = "Ilphin"
-		name_list = "MAM4"
+		name_list = "REP4"
 	}
 
 	Ulphall= {
@@ -36,7 +36,7 @@ ANT = {
 		plural = Ulphalli
 		home_planet = Domu
 		home_system = "Thruns"
-		name_list = "MAM1"
+		name_list = "REP1"
 	}
 
 	Deldae= {
@@ -44,7 +44,7 @@ ANT = {
 		plural = Deldae
 		home_planet = Ahlen
 		home_system = "Ondul"
-		name_list = "MAM2"
+		name_list = "REP2"
 	}
 
 	Aukvon= {
@@ -52,7 +52,7 @@ ANT = {
 		plural = Aukvons
 		home_planet = Ica
 		home_system = "Catleon"
-		name_list = "MAM3"
+		name_list = "REP3"
 	}
 
 	Vohnaet= {
@@ -60,120 +60,146 @@ ANT = {
 		plural = Vohnaeti
 		home_planet = Hulvae
 		home_system = "Qhusqi"
-		name_list = "MAM4"
+		name_list = "REP4"
 	}
 
-	kroll = {
-		name = Kroll
-		plural = Kroll
-		home_planet = "Krolldar Prime"
-		home_system = Krolldar
+	Estever= {
+		name = Estever
+		plural = Esteveri
+		home_planet = "Eccer"
+		home_system = Rictario
+		name_list = "HUM1"
+	}
+
+	Pulifrici = {
+		name = Pulifrici  
+		plural = Pulifrici 
+		home_planet = "Onania"
+		home_system = Isquit
+		name_list = "HUM2"
+	}
+
+	Ceteret= {
+		name = Ceteret
+		plural = Ceterets
+		home_planet = "Otrutov"
+		home_system = Tatokal
+		name_list = "HUM3"
+	}
+
+	Silese= {
+		name = Silese
+		plural = Silese
+		home_planet = "Enkagua"
+		home_system = Esthan
+		name_list = "HUM4"
+	}
+
+	Arsuder= {
+		name = Arsuder
+		plural = Arsuders
+		home_planet = "Rinvao"
+		home_system = Rilata
 		name_list = "MAM1"
 	}
 
-	orassian = {
-		name = Orassian
-		plural = Orassians
-		home_planet = Orassia
-		home_system = Orass
+	Hitroli= {
+		name = Hitroli
+		plural = Hitroli
+		home_planet = "Heiruta"
+		home_system = Iacilae
 		name_list = "MAM2"
 	}
 
-	aramathi = {
-		name = Aramathi
-		plural = Aramathi
-		home_planet = Arakim
-		home_system = Aramus
-		name_list = "MAM3"
-	}
-		
-	immutharan = {
-		name = Immutharan
-		plural = Immutharans
-		home_planet = Immuth
-		home_system = Immuthor
-		name_list = "MAM4"
-	}
-
-	hiffnar = {
-		name = Hiffnar
-		plural = Hiffnari
-		home_planet = Hiffnus
-		home_system = Hiff
-		name_list = "MAM1"
-	}
-	
-	zaanami = {
-		name = Zaanami
-		plural = Zaanami
-		home_planet = Zaanamar
-		home_system = Zaan
-		name_list = "MAM2"
-	}
-
-	estwani = {
-		name = Estwani
-		plural = Estwani
-		home_planet = Estwaana
-		home_system = Wani
-		name_list = "MAM3"
-	}
-
-	vailon = {
-		name = Vailon
-		plural = Vailons
-		home_planet = Vallgar
-		home_system = Vidirion
-		name_list = "MAM4"
-	}
-
-	raltek = {
-		name = Raltek
-		plural = Raltek
-		home_planet = "Ratann Bir"
-		home_system = Raltess
-		name_list = "MAM1"
-	}
-
-	birnathi = {
-		name = Birnathi
-		plural = Birnathi
-		home_planet = Birnus
-		home_system = Dethirus
-		name_list = "MAM2"
-	}
-
-	othari = {
-		name = Othari
-		plural = Othari
-		home_planet = Otharia
-		home_system = Othor
+	Nalthon= {
+		name = Nalthon
+		plural = Nalthoni
+		home_planet = "Leestea"
+		home_system = Aphine
 		name_list = "MAM3"
 	}
 
-	evandari = {
-		name = Evandari
-		plural = Evandari
-		home_planet = "Evanda Zuun"
-		home_system = Evon
+	Alten= {
+		name = Alten
+		plural = Altens
+		home_planet = "Futanari"
+		home_system = Dracnae
 		name_list = "MAM4"
 	}
 
-	bothrian = {
-		name = Bothrian
-		plural = Bothrians
-		home_planet = Bothria
-		home_system = "Bothmaras"
+	Yuthor= {
+		name = Yuthor
+		plural = Yuthors
+		home_planet = "Zulyria"
+		home_system = Ognine
+		name_list = "REP1"
+	}
+
+	Pyti= {
+		name = Pyti
+		plural = Pyti
+		home_planet = "Oacury"
+		home_system = Gnuminit 
+		name_list = "REP2"
+	}
+
+	Zaynt= {
+		name = Zaynt
+		plural = Zaynts
+		home_planet = "Kanov"
+		home_system = Churonit
+		name_list = "REP3"
+	}
+
+	Ketthan= {
+		name = Ketthan
+		plural = Ketthans
+		home_planet = "Bukunov"
+		home_system = Wrartute
+		name_list = "REP4"
+	}
+
+	Ruhan= {
+		name = Ruhan
+		plural = Ruhans
+		home_planet = "Reclite"
+		home_system = Yogidae
 		name_list = "MAM1"
 	}
 
-	dorbolan = {
-		name = Dorbolan
-		plural = Dorbolans
-		home_planet = Dorbol
-		home_system = Dimas-Qul
+	Yathan= {
+		name = Yathan
+		plural = Yathani
+		home_planet = "Paonope"
+		home_system = Herveron
+		name_list = "HUM1"
+	}
+
+	Espenur= {
+		name = Espenur
+		plural = Espenurs
+		home_planet = "Cranodeth"
+		home_system = Pothria
+		name_list = "MAM1"
+	}
+
+	Ibilass= {
+		name = Ibilass
+		plural = Ibilassi
+		home_planet = "Tallenoc"
+		home_system = Uchxyke
 		name_list = "MAM2"
 	}
+
+	Rothyr= {
+		name = Rothyr
+		plural = Rothyr
+		home_planet = "Vagalod"
+		home_system = Hixaros
+		name_list = "MAM3"
+	}
+
+
 }
 
 XEN = {
@@ -241,116 +267,140 @@ XEN = {
 		name_list = "REP4"
 	}
 
-	kroll = {
-		name = Kroll
-		plural = Kroll
-		home_planet = "Krolldar Prime"
-		home_system = Krolldar
+	Estever= {
+		name = Estever
+		plural = Esteveri
+		home_planet = "Eccer"
+		home_system = Rictario
+		name_list = "HUM1"
+	}
+
+	Pulifrici = {
+		name = Pulifrici  
+		plural = Pulifrici 
+		home_planet = "Onania"
+		home_system = Isquit
+		name_list = "HUM2"
+	}
+
+	Ceteret= {
+		name = Ceteret
+		plural = Ceterets
+		home_planet = "Otrutov"
+		home_system = Tatokal
+		name_list = "HUM3"
+	}
+
+	Silese= {
+		name = Silese
+		plural = Silese
+		home_planet = "Enkagua"
+		home_system = Esthan
+		name_list = "HUM4"
+	}
+
+	Arsuder= {
+		name = Arsuder
+		plural = Arsuders
+		home_planet = "Rinvao"
+		home_system = Rilata
 		name_list = "MAM1"
 	}
 
-	orassian = {
-		name = Orassian
-		plural = Orassians
-		home_planet = Orassia
-		home_system = Orass
+	Hitroli= {
+		name = Hitroli
+		plural = Hitroli
+		home_planet = "Heiruta"
+		home_system = Iacilae
 		name_list = "MAM2"
 	}
 
-	aramathi = {
-		name = Aramathi
-		plural = Aramathi
-		home_planet = Arakim
-		home_system = Aramus
-		name_list = "MAM3"
-	}
-		
-	immutharan = {
-		name = Immutharan
-		plural = Immutharans
-		home_planet = Immuth
-		home_system = Immuthor
-		name_list = "MAM4"
-	}
-
-	hiffnar = {
-		name = Hiffnar
-		plural = Hiffnari
-		home_planet = Hiffnus
-		home_system = Hiff
-		name_list = "MAM1"
-	}
-	
-	zaanami = {
-		name = Zaanami
-		plural = Zaanami
-		home_planet = Zaanamar
-		home_system = Zaan
-		name_list = "MAM2"
-	}
-
-	estwani = {
-		name = Estwani
-		plural = Estwani
-		home_planet = Estwaana
-		home_system = Wani
-		name_list = "MAM3"
-	}
-
-	vailon = {
-		name = Vailon
-		plural = Vailons
-		home_planet = Vallgar
-		home_system = Vidirion
-		name_list = "MAM4"
-	}
-
-	raltek = {
-		name = Raltek
-		plural = Raltek
-		home_planet = "Ratann Bir"
-		home_system = Raltess
-		name_list = "MAM1"
-	}
-
-	birnathi = {
-		name = Birnathi
-		plural = Birnathi
-		home_planet = Birnus
-		home_system = Dethirus
-		name_list = "MAM2"
-	}
-
-	othari = {
-		name = Othari
-		plural = Othari
-		home_planet = Otharia
-		home_system = Othor
+	Nalthon= {
+		name = Nalthon
+		plural = Nalthoni
+		home_planet = "Leestea"
+		home_system = Aphine
 		name_list = "MAM3"
 	}
 
-	evandari = {
-		name = Evandari
-		plural = Evandari
-		home_planet = "Evanda Zuun"
-		home_system = Evon
+	Alten= {
+		name = Alten
+		plural = Altens
+		home_planet = "Futanari"
+		home_system = Dracnae
 		name_list = "MAM4"
 	}
 
-	bothrian = {
-		name = Bothrian
-		plural = Bothrians
-		home_planet = Bothria
-		home_system = "Bothmaras"
+	Yuthor= {
+		name = Yuthor
+		plural = Yuthors
+		home_planet = "Zulyria"
+		home_system = Ognine
+		name_list = "REP1"
+	}
+
+	Pyti= {
+		name = Pyti
+		plural = Pyti
+		home_planet = "Oacury"
+		home_system = Gnuminit 
+		name_list = "REP2"
+	}
+
+	Zaynt= {
+		name = Zaynt
+		plural = Zaynts
+		home_planet = "Kanov"
+		home_system = Churonit
+		name_list = "REP3"
+	}
+
+	Ketthan= {
+		name = Ketthan
+		plural = Ketthans
+		home_planet = "Bukunov"
+		home_system = Wrartute
+		name_list = "REP4"
+	}
+
+	Ruhan= {
+		name = Ruhan
+		plural = Ruhans
+		home_planet = "Reclite"
+		home_system = Yogidae
 		name_list = "MAM1"
 	}
 
-	dorbolan = {
-		name = Dorbolan
-		plural = Dorbolans
-		home_planet = Dorbol
-		home_system = Dimas-Qul
+	Yathan= {
+		name = Yathan
+		plural = Yathani
+		home_planet = "Paonope"
+		home_system = Herveron
+		name_list = "HUM1"
+	}
+
+	Espenur= {
+		name = Espenur
+		plural = Espenurs
+		home_planet = "Cranodeth"
+		home_system = Pothria
+		name_list = "MAM1"
+	}
+
+	Ibilass= {
+		name = Ibilass
+		plural = Ibilassi
+		home_planet = "Tallenoc"
+		home_system = Uchxyke
 		name_list = "MAM2"
+	}
+
+	Rothyr= {
+		name = Rothyr
+		plural = Rothyr
+		home_planet = "Vagalod"
+		home_system = Hixaros
+		name_list = "MAM3"
 	}
 
 }

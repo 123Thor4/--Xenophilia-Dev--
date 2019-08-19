@@ -45,6 +45,11 @@ portraits = {
 	bovineH12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH12.dds"	}
 	bovineH13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/bovine/bovineH13.dds"	}
 
+	bovineH01 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/bovine/bovineM1.dds"	}
+	bovineH02 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/bovine/bovineM2.dds"	}
+	bovineH03 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/bovine/bovineM3.dds"	}
+	bovineH04 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/bovine/bovineM4.dds"	}
+
 }
 
 portrait_groups = {
@@ -63,6 +68,9 @@ portrait_groups = {
 					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
 					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
 					bovineH11 bovineH12 bovineH13
+
+bovineM1 bovineM2		bovineM3 bovineM4 
+
 				}
 			}
 		}
@@ -80,6 +88,9 @@ portrait_groups = {
 					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
 					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
 					bovineH11 bovineH12 bovineH13
+
+bovineM01 bovineM02		bovineM03 bovineM04
+
 				}
 			}
 		}
@@ -97,13 +108,19 @@ portrait_groups = {
 					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
 					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
 					bovineH11 bovineH12 bovineH13
+					
+bovineM01 bovineM02		bovineM03 bovineM04 
 				}
 			}
 		}
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
 			add = {
-				portraits = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+
 					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
 					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
 					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
@@ -114,6 +131,17 @@ portrait_groups = {
 					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
 					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
 					bovineH11 bovineH12 bovineH13
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+bovineM01 bovineM02 bovineM03 bovineM04 
+
+
 				}
 			}
 
@@ -121,7 +149,11 @@ portrait_groups = {
 		#leader scope 
 		ruler = {
 			add = {
-				portraits = {
+				trigger = {
+					gender = female 
+				}
+                portraits = {
+
 					bovineF01 bovineF02 bovineF03 bovineF04 bovineF05
 					bovineF06 bovineF07 bovineF08 bovineF09 bovineF10
 					bovineF11 bovineF12 bovineF13 bovineF14 bovineF15
@@ -132,6 +164,16 @@ portrait_groups = {
 					bovineH01 bovineH02 bovineH03 bovineH04 bovineH05
 					bovineH06 bovineH07 bovineH08 bovineH09 bovineH10
 					bovineH11 bovineH12 bovineH13
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male 
+				}
+                portraits = {
+bovineM01 bovineM02 bovineM03 bovineM04 
+
                 }
             }
         }

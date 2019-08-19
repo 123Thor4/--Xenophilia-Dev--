@@ -18,6 +18,9 @@ portraits = {
 	eliteF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF16.dds"	}
 	eliteF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF17.dds"	}
 	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF18.dds"	}
+	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF19.dds"	}
+	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF20.dds"	}
+
 	
 	eliteM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteM1.dds"	}
 	eliteM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteM2.dds"	}
@@ -47,7 +50,7 @@ portrait_groups = {
 					eliteF01 eliteF02 eliteF03 eliteF04 eliteF05
 					eliteF06 eliteF07 eliteF08 eliteF09 eliteF10
 					eliteF11 eliteF12 eliteF13 eliteF14 eliteF15
-					eliteF16 eliteF17 eliteF18
+					eliteF16 eliteF17 eliteF18 eliteF19 eliteF20
 				}
 			}
 			add = {
@@ -68,7 +71,7 @@ portrait_groups = {
 					eliteF01 eliteF02 eliteF03 eliteF04 eliteF05
 					eliteF06 eliteF07 eliteF08 eliteF09 eliteF10
 					eliteF11 eliteF12 eliteF13 eliteF14 eliteF15
-					eliteF16 eliteF17 eliteF18
+					eliteF16 eliteF17 eliteF18 eliteF19 eliteF20
 					
 					eliteM01 eliteM02 eliteM03 eliteM04 eliteM05
 					eliteM06 eliteM07 eliteM08 eliteM09 eliteM10
@@ -83,7 +86,7 @@ portrait_groups = {
 					eliteF01 eliteF02 eliteF03 eliteF04 eliteF05
 					eliteF06 eliteF07 eliteF08 eliteF09 eliteF10
 					eliteF11 eliteF12 eliteF13 eliteF14 eliteF15
-					eliteF16 eliteF17 eliteF18
+					eliteF16 eliteF17 eliteF18 eliteF19 eliteF20
 					
 					eliteM01 eliteM02 eliteM03 eliteM04 eliteM05
 					eliteM06 eliteM07 eliteM08 eliteM09 eliteM10
@@ -101,7 +104,7 @@ portrait_groups = {
 					eliteF01 eliteF02 eliteF03 eliteF04 eliteF05
 					eliteF06 eliteF07 eliteF08 eliteF09 eliteF10
 					eliteF11 eliteF12 eliteF13 eliteF14 eliteF15
-					eliteF16 eliteF17 eliteF18
+					eliteF16 eliteF17 eliteF18 eliteF19 eliteF20
 				}
 			}
 			add = {
@@ -125,7 +128,7 @@ portrait_groups = {
 					eliteF01 eliteF02 eliteF03 eliteF04 eliteF05
 					eliteF06 eliteF07 eliteF08 eliteF09 eliteF10
 					eliteF11 eliteF12 eliteF13 eliteF14 eliteF15
-					eliteF16 eliteF17 eliteF18
+					eliteF16 eliteF17 eliteF18 eliteF19 eliteF20
 				}
 			}
 			add = {
