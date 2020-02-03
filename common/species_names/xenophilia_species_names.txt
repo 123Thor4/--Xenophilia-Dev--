@@ -199,6 +199,62 @@ ANT = {
 		name_list = "MAM3"
 	}
 
+	Llapard= {
+		name = Llapard
+		plural = Llapards
+		home_planet = "Ucroya"
+		home_system = Aiwora
+		name_list = "MAM4"
+	}
+
+	Besiphan= {
+		name = Besiphan
+		plural = Besiphans
+		home_planet = "Plaidron"
+		home_system = Kishuan
+		name_list = "HUM1"
+	}
+
+	Olkets= {
+		name = Olkets
+		plural = Olkets
+		home_planet = "Voliuyor"
+		home_system = Mocrun
+		name_list = "HUM2"
+	}
+
+	Oteonsian= {
+		name = Oteonsian
+		plural = Oteonsians
+		home_planet = "Iucokesh"
+		home_system = Unaulaes
+		name_list = "HUM3"
+	}
+
+	Koletzal= {
+		name = Koletzal
+		plural = Koletzals
+		home_planet = "Akrai"
+		home_system = Serdetzal
+		name_list = "HUM4"
+	}
+
+	Asnean= {
+		name = Asnean
+		plural = Asneans
+		home_planet = "Agith"
+		home_system = Iaconoa
+		name_list = "REP1"
+	}
+
+	Duzavese= {
+		name = Duzavese
+		plural = Duzavese
+		home_planet = "Dreidrun"
+		home_system = Vikrend
+		name_list = "REP2"
+	}
+
 
 }
 
@@ -403,5 +459,58 @@ XEN = {
 		name_list = "MAM3"
 	}
 
-}
+	Llapard= {
+		name = Llapard
+		plural = Llapards
+		home_planet = "Ucroya"
+		home_system = Aiwora
+		name_list = "MAM4"
+	}
 
+	Besiphan= {
+		name = Besiphan
+		plural = Besiphans
+		home_planet = "Plaidron"
+		home_system = Kishuan
+		name_list = "HUM1"
+	}
+
+	Olkets= {
+		name = Olkets
+		plural = Olkets
+		home_planet = "Voliuyor"
+		home_system = Mocrun
+		name_list = "HUM2"
+	}
+
+	Oteonsian= {
+		name = Oteonsian
+		plural = Oteonsians
+		home_planet = "Iucokesh"
+		home_system = Unaulaes
+		name_list = "HUM3"
+	}
+
+	Koletzal= {
+		name = Koletzal
+		plural = Koletzals
+		home_planet = "Akrai"
+		home_system = Serdetzal
+		name_list = "HUM4"
+	}
+
+	Asnean= {
+		name = Asnean
+		plural = Asneans
+		home_planet = "Agith"
+		home_system = Iaconoa
+		name_list = "REP1"
+	}
+
+	Duzavese= {
+		name = Duzavese
+		plural = Duzavese
+		home_planet = "Dreidrun"
+		home_system = Vikrend
+		name_list = "REP2"
+	}

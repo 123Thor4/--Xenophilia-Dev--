@@ -15,6 +15,15 @@ portraits = {
 	snakeF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeF13.dds"	}
 	snakeF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeF14.dds"	}
 	snakeF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeF15.dds"	}
+	snakeF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeF16.dds"	}
+	snakeF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeF17.dds"	}
+	
+	snakeH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH1.dds"	}
+	snakeH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH2.dds"	}
+	snakeH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH3.dds"	}
+	snakeH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH4.dds"	}
+	snakeH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH5.dds"	}
+	snakeH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeH6.dds"	}
 
 	snakeM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM1.dds"	}
 	snakeM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM2.dds"	}
@@ -24,6 +33,13 @@ portraits = {
 	snakeM06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM6.dds"	}
 	snakeM07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM7.dds"	}
 	snakeM08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM8.dds"	}
+	snakeM09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM9.dds"	}
+	snakeM10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM10.dds"	}
+	snakeM11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM11.dds"	}
+	snakeM12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM12.dds"	}
+	snakeM13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM13.dds"	}
+	snakeM14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM14.dds"	}
+	snakeM15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/snake/snakeM15.dds"	}
 
 }
 
@@ -39,6 +55,10 @@ portrait_groups = {
 					snakeF01 snakeF02 snakeF03 snakeF04 snakeF05
 					snakeF06 snakeF07 snakeF08 snakeF09 snakeF10 
 					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15
+					snakeF16 snakeF17
+					
+					snakeH01 snakeH02 snakeH03 snakeH04 snakeH05
+					snakeH06
 				}
 			}
 			add = {
@@ -47,7 +67,8 @@ portrait_groups = {
 				}
                 portraits = {
 					snakeM01 snakeM02 snakeM03 snakeM04 snakeM05
-					snakeM06 snakeM07 snakeM08 snakeM09
+					snakeM06 snakeM07 snakeM08 snakeM09 snakeM10 
+					snakeM11 snakeM12 snakeM13 snakeM14 snakeM15 
 				}
 			}
 		}
@@ -57,10 +78,15 @@ portrait_groups = {
 				portraits = {
 					snakeF01 snakeF02 snakeF03 snakeF04 snakeF05
 					snakeF06 snakeF07 snakeF08 snakeF09 snakeF10 
-					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15 
+					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15
+					snakeF16 snakeF17
+					
+					snakeH01 snakeH02 snakeH03 snakeH04 snakeH05
+					snakeH06
 					
 					snakeM01 snakeM02 snakeM03 snakeM04 snakeM05
-					snakeM06 snakeM07 snakeM08 snakeM09
+					snakeM06 snakeM07 snakeM08 snakeM09 snakeM10 
+					snakeM11 snakeM12 snakeM13 snakeM14 snakeM15 
 				}
 			}
 		}
@@ -70,10 +96,15 @@ portrait_groups = {
 				portraits = {
 					snakeF01 snakeF02 snakeF03 snakeF04 snakeF05
 					snakeF06 snakeF07 snakeF08 snakeF09 snakeF10 
-					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15 
+					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15
+					snakeF16 snakeF17 
+					
+					snakeH01 snakeH02 snakeH03 snakeH04 snakeH05
+					snakeH06
 					
 					snakeM01 snakeM02 snakeM03 snakeM04 snakeM05
-					snakeM06 snakeM07 snakeM08 snakeM09
+					snakeM06 snakeM07 snakeM08 snakeM09 snakeM10 
+					snakeM11 snakeM12 snakeM13 snakeM14 snakeM15
 				}
 			}
 		}
@@ -87,6 +118,10 @@ portrait_groups = {
 					snakeF01 snakeF02 snakeF03 snakeF04 snakeF05
 					snakeF06 snakeF07 snakeF08 snakeF09 snakeF10 
 					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15
+					snakeF16 snakeF17
+					
+					snakeH01 snakeH02 snakeH03 snakeH04 snakeH05
+					snakeH06
 				}
 			}
 			add = {
@@ -95,7 +130,8 @@ portrait_groups = {
 				}
                 portraits = {
 					snakeM01 snakeM02 snakeM03 snakeM04 snakeM05
-					snakeM06 snakeM07 snakeM08 snakeM09
+					snakeM06 snakeM07 snakeM08 snakeM09 snakeM10 
+					snakeM11 snakeM12 snakeM13 snakeM14 snakeM15
 				}
 			}
 		}	
@@ -109,6 +145,10 @@ portrait_groups = {
 					snakeF01 snakeF02 snakeF03 snakeF04 snakeF05
 					snakeF06 snakeF07 snakeF08 snakeF09 snakeF10 
 					snakeF11 snakeF12 snakeF13 snakeF14 snakeF15
+					snakeF16 snakeF17
+					
+					snakeH01 snakeH02 snakeH03 snakeH04 snakeH05
+					snakeH06
 				}
 			}
 			add = {
@@ -117,7 +157,8 @@ portrait_groups = {
 				}
                 portraits = {
 					snakeM01 snakeM02 snakeM03 snakeM04 snakeM05
-					snakeM06 snakeM07 snakeM08 snakeM09
+					snakeM06 snakeM07 snakeM08 snakeM09 snakeM10 
+					snakeM11 snakeM12 snakeM13 snakeM14 snakeM15
 				}
 			}
         }

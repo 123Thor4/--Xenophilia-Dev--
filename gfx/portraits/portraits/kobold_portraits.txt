@@ -30,8 +30,6 @@ portraits = {
 	koboldM07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/kobold/koboldM7.dds"	}
 	koboldM08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/kobold/koboldM8.dds"	}
 	koboldM09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/kobold/koboldM9.dds"	}
-	koboldM10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/kobold/koboldM10.dds"	}
-
 }
 
 portrait_groups = {
@@ -55,7 +53,7 @@ portrait_groups = {
 				}
                 portraits = {
 					koboldM01 koboldM02 koboldM03 koboldM04 koboldM05
-					koboldM06 koboldM07 koboldM08 koboldM09 koboldM10
+					koboldM06 koboldM07 koboldM08 koboldM09 
 				}
 			}
 		}
@@ -69,7 +67,7 @@ portrait_groups = {
 					koboldF16 koboldF17 koboldF18 koboldF19 koboldF20
 					
 					koboldM01 koboldM02 koboldM03 koboldM04 koboldM05
-					koboldM06 koboldM07 koboldM08 koboldM09 koboldM10
+					koboldM06 koboldM07 koboldM08 koboldM09 
 				}
 			}
 		}
@@ -83,7 +81,7 @@ portrait_groups = {
 					koboldF16 koboldF17 koboldF18 koboldF19 koboldF20
 					
 					koboldM01 koboldM02 koboldM03 koboldM04 koboldM05
-					koboldM06 koboldM07 koboldM08 koboldM09 koboldM10
+					koboldM06 koboldM07 koboldM08 koboldM09 
 				}
 			}
 		}
@@ -106,7 +104,7 @@ portrait_groups = {
 				}
                 portraits = {
 					koboldM01 koboldM02 koboldM03 koboldM04 koboldM05
-					koboldM06 koboldM07 koboldM08 koboldM09 koboldM10
+					koboldM06 koboldM07 koboldM08 koboldM09 
 				}
 			}
 		}	
@@ -129,7 +127,7 @@ portrait_groups = {
 				}
                 portraits = {
 					koboldM01 koboldM02 koboldM03 koboldM04 koboldM05
-					koboldM06 koboldM07 koboldM08 koboldM09 koboldM10
+					koboldM06 koboldM07 koboldM08 koboldM09 
 				}
 			}
         }

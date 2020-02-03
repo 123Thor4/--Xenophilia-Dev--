@@ -9,6 +9,7 @@ portraits = {
 	avianF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF7.dds"	}
 	avianF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF8.dds"	}
 	avianF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF9.dds"	}
+	avianF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianF10.dds"	}
 	
 	avianH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianH1.dds"	}
 	
@@ -17,7 +18,7 @@ portraits = {
 	avianM03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM3.dds"	}
 	avianM04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM4.dds"	}
 	avianM05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM5.dds"	}
-
+	avianM06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/avian/avianM6.dds"	}
 }
 
 portrait_groups = {
@@ -30,9 +31,9 @@ portrait_groups = {
 				}
                 portraits = {
 					avianF01 avianF02 avianF03 avianF04 avianF05
-					avianF06 avianF07 avianF08 avianF09
+					avianF06 avianF07 avianF08 avianF09 avianF10
 					
-					avianH01
+					avian H01
 				}
 			}
 			add = {
@@ -41,6 +42,7 @@ portrait_groups = {
 				}
                 portraits = {
 					avianM01 avianM02 avianM03 avianM04 avianM05
+					avianM06
 				}
 			}
 		}
@@ -49,11 +51,12 @@ portrait_groups = {
 			add = {
 				portraits = {
 					avianF01 avianF02 avianF03 avianF04 avianF05
-					avianF06 avianF07 avianF08 avianF09
+					avianF06 avianF07 avianF08 avianF09 avianF10
 					
 					avianH01
 					
 					avianM01 avianM02 avianM03 avianM04 avianM05
+					avianM06
 				}
 			}
 		}
@@ -62,11 +65,12 @@ portrait_groups = {
 			add = {
 				portraits = {
 					avianF01 avianF02 avianF03 avianF04 avianF05
-					avianF06 avianF07 avianF08 avianF09
+					avianF06 avianF07 avianF08 avianF09 avianF10
 					
 					avianH01
 					
 					avianM01 avianM02 avianM03 avianM04 avianM05
+					avianM06
 				}
 			}
 		}
@@ -78,7 +82,8 @@ portrait_groups = {
 				}
                 portraits = {
 					avianF01 avianF02 avianF03 avianF04 avianF05
-					avianF06 avianF07 avianF08 avianF09
+					avianF06 avianF07 avianF08 avianF09 avianF10
+					
 					
 					avianH01
 				}
@@ -89,6 +94,7 @@ portrait_groups = {
 				}
                 portraits = {
 					avianM01 avianM02 avianM03 avianM04 avianM05
+					avianM06
 				}
 			}
 		}	
@@ -100,7 +106,8 @@ portrait_groups = {
 				}
                 portraits = {
 					avianF01 avianF02 avianF03 avianF04 avianF05
-					avianF06 avianF07 avianF08 avianF09
+					avianF06 avianF07 avianF08 avianF09 avianF10
+					
 					
 					avianH01
 				}
@@ -111,6 +118,7 @@ portrait_groups = {
 				}
                 portraits = {
 					avianM01 avianM02 avianM03 avianM04 avianM05
+					avianM06
 				}
 			}
         }

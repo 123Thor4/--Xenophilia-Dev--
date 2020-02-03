@@ -41,10 +41,10 @@ portraits = {
 	horseM14 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM14.dds"	}
 	horseM15 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM15.dds"	}
 	horseM16 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM16.dds"	}
-	horseM16 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM17.dds"	}
-	horseM16 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM18.dds"	}
-	horseM16 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM19.dds"	}
-	horseM16 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM20.dds"	}
+	horseM17 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM17.dds"	}
+	horseM18 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM18.dds"	}
+	horseM19 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM19.dds"	}
+	horseM20 = { greeting_sound = "humanoid_portrait_j_male" texturefile = "gfx/models/portraits/horse/horseM20.dds"	}
 
 
 }
@@ -75,7 +75,7 @@ portrait_groups = {
 					horseM01 horseM02 horseM03 horseM04 horseM05
 					horseM06 horseM07 horseM08 horseM09 horseM10
 					horseM11 horseM12 horseM13 horseM14 horseM15
-					horseM16
+					horseM16 horseM17 horseM18 horseM19 horseM20
 				}
 			}
 		}

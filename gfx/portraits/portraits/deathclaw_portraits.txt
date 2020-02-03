@@ -27,7 +27,6 @@ portraits = {
 	deathclawH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH4.dds"	}
 	deathclawH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH5.dds"	}
 	deathclawH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH6.dds"	}
-	deathclawH07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawH7.dds"	}
 	
 	deathclawM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM1.dds"	}
 	deathclawM02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/deathclaw/deathclawM2.dds"	}
@@ -54,7 +53,7 @@ portrait_groups = {
 					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
 					
 					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
-					deathclawH06 deathclawH07
+					deathclawH06
 				}
 			}
 			add = {
@@ -77,7 +76,7 @@ portrait_groups = {
 					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
 					
 					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
-					deathclawH06 deathclawH07
+					deathclawH06
 					
 					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
 					deathclawM06 deathclawM07
@@ -94,7 +93,7 @@ portrait_groups = {
 					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
 					
 					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
-					deathclawH06 deathclawH07
+					deathclawH06
 					
 					deathclawM01 deathclawM02 deathclawM03 deathclawM04 deathclawM05
 					deathclawM06 deathclawM07
@@ -114,7 +113,7 @@ portrait_groups = {
 					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
 					
 					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
-					deathclawH06 deathclawH07
+					deathclawH06
 				}
 			}
 			add = {
@@ -140,7 +139,7 @@ portrait_groups = {
 					deathclawF16 deathclawF17 deathclawF18 deathclawF19 deathclawF20					
 					
 					deathclawH01 deathclawH02 deathclawH03 deathclawH04 deathclawH05
-					deathclawH06 deathclawH07
+					deathclawH06
 				}
 			}
 			add = {

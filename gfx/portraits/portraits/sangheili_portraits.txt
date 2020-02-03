@@ -18,8 +18,8 @@ portraits = {
 	eliteF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF16.dds"	}
 	eliteF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF17.dds"	}
 	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF18.dds"	}
-	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF19.dds"	}
-	eliteF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF20.dds"	}
+	eliteF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF19.dds"	}
+	eliteF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteF20.dds"	}
 
 	
 	eliteM01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/sangheili/eliteM1.dds"	}
