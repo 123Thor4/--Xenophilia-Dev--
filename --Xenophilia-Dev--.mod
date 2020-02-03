@@ -1,6 +1,6 @@
-name="--Xenophilia Dev Portraits----"
+name="--Xenophilia Dev--"
 path="mod/--Xenophilia-Dev--"
 tags={
 	"Species"
 }
-supported_version="2.3.*"
+supported_version="2.5.*"
