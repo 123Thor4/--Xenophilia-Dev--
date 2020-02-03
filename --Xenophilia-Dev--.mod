@@ -1,4 +1,4 @@
-name="--Xenophilia Dev--"
+name="--Xenophilia Dev Portraits----"
 path="mod/--Xenophilia-Dev--"
 tags={
 	"Species"
